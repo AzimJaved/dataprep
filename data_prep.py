@@ -14,7 +14,7 @@ print("Imported CSV")
 ##Lemmatization
 ##Replace all skills with their respective lemmatized grammar
 import spacy
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load()
 print("Loaded NLP")
 col = ['Skill1','Skill2','Skill3','Skill4','Skill5','Skill6','Skill7']
 c = 0
